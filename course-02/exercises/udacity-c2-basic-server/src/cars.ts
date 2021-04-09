@@ -5,7 +5,6 @@ export interface Car {
     cost: number;
     id: number;
 }
-
 export const cars: Car[] = [
     { make: 'tesla', type: 'sedan', model: 'roadster', cost: 33, id: 0 },
     { make: 'tesla', type: 'suv', model: 'model 3', cost: 48, id: 1 },
